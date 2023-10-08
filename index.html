@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,700&family=Jost:wght@400;600&family=Lilita+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>Admin DashBoard</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="side-bar">
+        <div class="logo">
+          <p>Dashboard</p>
+        </div>
+        <ul>
+          <li>Home</li>
+          <li>Profile</li>
+          <li>Message</li>
+          <li>History</li>
+          <li>Tasks</li>
+          <li>Communication</li>
+        </ul>
+        <ul>
+          <li>Settings</li>
+          <li>Support</li>
+          <li>Privacy</li>
+        </ul>
+      </div>
+
+      <div class="header">
+        <div class="search-bar">
+          <input type="text" name="search" id="search" />
+          <img src="asset/search-icon.png" alt="search" />
+        </div>
+        <div class="notification">
+          <img src="asset/notifcation.png" alt="" />
+          <div class="pfp-group">
+            <img src="asset/profile.webp" alt=pfp" class="n-pfp">
+
+            <p>Lime Alz</p>
+          </div>
+        </div>
+        <div class="name-tag">
+          <img src="asset/profile.webp" alt=pfp" class="n-pfp">
+          <div class="name-tag-text">
+            <p class="small-text">Hi there!!</p>
+            <p>Lime Alz(@alzain__)</p>
+          </div>
+        </div>
+
+        <div class="header-button">
+          <button type="button">New</button>
+          <button type="button">Upload</button>
+          <button type="button">Share</button>
+        </div>
+      </div>
+      <div class="main">
+        <div class="cards"></div>
+        <div class="annoucement">
+          <p class="subheading">Annoucement</p>
+          <div class="sidecard-container">
+            <div class="sidecard">
+              <p class="sidecard-heading">New Project!!</p>
+              <p>Employee Roster Project shall begin soon!.</p>
+            </div>
+            <div class="sidecard">
+              <p class="sidecard-heading">New Project!!</p>
+              <p>Point of Sale System shall begin soon!.</p>
+            </div>
+            <div class="sidecard end">
+              <p class="sidecard-heading">Discussion</p>
+              <p>
+                Should Flutter be considered as a new development framework?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="trending">
+          <p class="subheading">Trending</p>
+          <div class="t-container">
+            <div class="t-card">
+              <img src="asset/profile.webp" alt="" />
+              <div class="t-name">
+                <p class="alias">@lime</p>
+                Alt Alzain
+              </div>
+            </div>
+            <div class="t-card">
+              <img src="asset/profile.webp" alt="" />
+              <div class="t-name">
+                <p class="alias">@lime</p>
+                Alt Alzain
+              </div>
+            </div>
+            <div class="t-card">
+              <img src="asset/profile.webp" alt="" />
+              <div class="t-name">
+                <p class="alias">@lime</p>
+                Alt Alzain
+              </div>
+            </div>
+            <div class="t-card end">
+              <img src="asset/profile.webp" alt="" />
+              <div class="t-name">
+                <p class="alias">@lime</p>
+                Alt Alzain
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
