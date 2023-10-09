@@ -35,8 +35,6 @@
 }
 
 
-
-
 .header{
     background-color:#d1fae5 ;
     display: grid;
@@ -217,6 +215,34 @@
  }
  .end{
     border: none;
+ }
+
+ .cards{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+ }
+
+ .card-container{
+    display: grid;
+    grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
+    grid-auto-rows: 1fr;
+    gap:30px;
+ }
+
+ .card{
+    /* height: 200px; */
+    /* width: 200px; */
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    padding: 30px;
+    background-color: #f0fdfa;
+    overflow: hidden;
+    border-radius: 12px;
+    border-left: #10b981 12px solid;
+    font-family: 'Jost', sans-serif;
  }
 
  
